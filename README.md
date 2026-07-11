@@ -1,5 +1,5 @@
 # AWS-Cloud-Practitioner-CLF-C02
-#### AWS Certified Cloud Practitioner Certification Course (CLF-C02) - Notes and Study Material
+### AWS Certified Cloud Practitioner Certification Course (CLF-C02) - Notes and Study Material
 - Practice Exam - https://www.exampro.co/clf-c02
 Syllabus :
 1. Cloud Concepts - 24% - 15/16 Questions
