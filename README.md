@@ -29,4 +29,64 @@ If you get really hard or weird question then keep yourself cool, it might be un
 Cetification Valid for 3 Years, if you want to appear again it costs half.
 ```
  
+### Benefits of On-prem
+1. On demand
+2. Shared Resources
+3. For Anyone
+4. Elasticity
+5. Pay As You Go Model
 
+- It is comparativerly easy to scale up than scaling down
+
+### Problems
+1. Buying Hardware
+2. Installation
+3. Expansion
+4. Operations
+
+### Types of Cloud Services
+1. IaaS - Infrastructure as a Service
+- AWS EC2, Azure Virual Machine
+
+2. PaaS - Platform as a Service
+- AWS Elastic Beanstalk, Azure Webapps
+
+3. SaaS - Software as a Service
+- Salesforce, Twitter etc
+
+### Control Over Cloud
+1. Private Cloud - 
+- You own the hardware
+- Install and own software
+- Only you willuse it (security)
+2. Public Cloud
+- Economy of scale
+- Elasticity
+3. Hybrid Cloud
+- Combination of both
+- Internet or Private link
+4. Multi Cloud
+- AWS, Azure, Open Stack
+
+### AWS - Amazon Web Services
+
+### AWS Shared Responsibility Model
+
+#### AWS is resopnsible for 
+1. Hardsware / Global Infrastructure
+- Regions
+- Availability Zones
+- Edge Locations
+2. Software
+- Compute
+- Storage
+- Database
+- Networking
+
+#### Customer is responsible for
+1. Client side data, encryption, authentication, IAM,
+2. Server side encryption (file system AND/OR data)
+3. Networking traffic protection (encryption, identity, integriry)
+4. Operating Systems, Network and Firewall Configurations
+5. Platform, Applications, IAM,
+6. Customer Data
