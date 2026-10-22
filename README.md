@@ -108,7 +108,7 @@ Cetification Valid for 3 Years, if you want to appear again it costs half.
    - Identity Based Policy : gives permission to an identity.
    - Resource Based Policy : ex. S3 bucket - publically available.
    - Permission Boundaries : maximum permissions that the identity based policies can grant to an entity but does not gramt permissions. It does not set the permissions it allows what you can set. for ex. you can give permissions to EC2 but not bean stock.
-   - Organization (SCP) Service Control Policy : 
+   - Organization (SCP) Service Control Policy : For ex. you can set a policy that perticular unit thay it can only create 5 EC2 instances, not more than that. SCP do not grant permisioon, they CONTROL what permissions are availableto be granted for that organizational unit. 
    - Access Control List (ACL) : Cross account permission policy
    - Session Policy : 
   
@@ -121,3 +121,14 @@ Cetification Valid for 3 Years, if you want to appear again it costs half.
 6. Use policies and prefer Groups
 7. ARN : Amazon Resource Name and regular name
 8. Username & Password or Access Keys
+
+#### AWS Authentication
+1. You Know : Password
+2. You Have : OTP, Mobile, USB
+3. You Are : Fingerprint, Face lock etc
+
+- Rotate keys and Password
+- Do not use root account for any task
+- IAM Access Analyser
+- Regularly check and remove users, roles, permissions policies and credentials "that are not being in use" - re-evaluate
+- You can also add conditions like IP range or geo location based access
