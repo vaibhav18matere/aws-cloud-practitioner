@@ -90,3 +90,34 @@ Cetification Valid for 3 Years, if you want to appear again it costs half.
 4. Operating Systems, Network and Firewall Configurations
 5. Platform, Applications, IAM,
 6. Customer Data
+
+### IAM
+
+1. Group (attached with policy) ex. Admin, Dev, Tester, Monitor
+2. Role
+3. User
+   
+#### Policy 
+1. defines the permission
+2. It's a json document
+3. it is implicitely dennied - be default everything is not allowed
+4. We should not add a policy directly to user.
+5. Create group, add policy to that group and add user in a particular group
+6. Least Previledge Permission Policy / "Least Previledge Possible"
+7. AWS Supports 6 types of policies
+   - Identity Based Policy : gives permission to an identity.
+   - Resource Based Policy : ex. S3 bucket - publically available.
+   - Permission Boundaries : maximum permissions that the identity based policies can grant to an entity but does not gramt permissions. It does not set the permissions it allows what you can set. for ex. you can give permissions to EC2 but not bean stock.
+   - Organization (SCP) Service Control Policy : 
+   - Access Control List (ACL) : Cross account permission policy
+   - Session Policy : 
+  
+#### Root User : 
+1. Created when first time AWS account creation email and has full permissions
+2. Enable MFA
+3. Create new user from root user
+4. New user has a zero/ no permissions by default
+5. You can create 5000+ accounts
+6. Use policies and prefer Groups
+7. ARN : Amazon Resource Name and regular name
+8. Username & Password or Access Keys
