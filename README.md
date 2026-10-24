@@ -172,3 +172,7 @@ chmod 400 key.pem
 - Information about your instance
 - http://169.254.169.254/latest/meta-data
 - curl http://169.254.169.254/latest/meta-data
+
+#### ECS - Elastic Container Service
+#### Batch
+#### Lightsail
