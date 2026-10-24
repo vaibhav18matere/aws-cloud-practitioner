@@ -132,3 +132,43 @@ Cetification Valid for 3 Years, if you want to appear again it costs half.
 - IAM Access Analyser
 - Regularly check and remove users, roles, permissions policies and credentials "that are not being in use" - re-evaluate
 - You can also add conditions like IP range or geo location based access
+
+#### Elastic Compute Cloud : EC2
+1. Processor
+2. Memory
+3. Hard Disk Drive or SSD
+4. Network Interface Card (internet)
+5. Network Switch or Router
+
+##### Core Advantages of EC2
+1. Elasic - spin 1 , 100 or 1000 machines pretty quick
+2. Ownership - Install/Remove software
+3. Choice - O.S. selection or hardware selection 
+4. Speed - Spin up or down
+5. Price - Fairly low
+
+```
+While connecting with machines using SSH, remember to change file/key permission to 400 (read only)
+chmod 400 key.pem
+```
+#### Virtualization
+- Hypervisor is an abstraction of hardware
+- Virtual Hardware is given to the Operating Systems
+- Portability
+- EC2 instance is one such Virual Machine
+- You can pick your own CPU, Memory or O.S.
+
+#### AMI : Amazon Machine Image
+- Your OS
+- Snapshot
+- Customized O.S.
+
+##### EC2 User data
+- Runs only when the instance starts for the first time, then never again.
+- "When machine is created"
+
+##### EC2 meta data
+- meta data is data about data, when data created, modified
+- Information about your instance
+- http://169.254.169.254/latest/meta-data
+- curl http://169.254.169.254/latest/meta-data
