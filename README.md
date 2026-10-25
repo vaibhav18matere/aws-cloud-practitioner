@@ -176,3 +176,26 @@ chmod 400 key.pem
 #### ECS - Elastic Container Service
 #### Batch
 #### Lightsail
+
+#### AWS Storage Service
+1. (EBS) Elastic Block Storage:
+  - Similar to Hard Drive
+  - O.S. is installed on it
+  - O.S. created volumes
+  - Volumes are partitioned (C dive, D drive etc)
+2. (EFS) Elastic File Storage :
+  - NAS : Network attached server
+  - Connect via switch ot interner
+  - Cannot install O.S
+  - (S3) Simple Storage Service) - Object Storage:
+  - Uploads are via web browser
+  - Uses HTTP Protocols
+  - Objects can be file, image, video etc
+
+- EC2 can have multiple EBS
+- EBS cannot have. multiple EC2
+- EC2 and EBS are in same availability zone
+
+- EBS Snapshot
+- DLM : Data Lifecucle Manager
+- Instance Store
