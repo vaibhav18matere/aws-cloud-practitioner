@@ -187,15 +187,25 @@ chmod 400 key.pem
   - NAS : Network attached server
   - Connect via switch ot interner
   - Cannot install O.S
-  - (S3) Simple Storage Service) - Object Storage:
+3. (S3) Simple Storage Service)
+  - Object Storage - Everything is an object
   - Uploads are via web browser
   - Uses HTTP Protocols
-  - Objects can be file, image, video etc
+  - API Access
+  - Objects can be file, image, video, audio etc
+  - Universal Unique Name
+  - Transfer Acceleration (using edge)
+  - Events (SQS, SNS)
+  - Versions and Replications
 
-- EC2 can have multiple EBS
-- EBS cannot have. multiple EC2
-- EC2 and EBS are in same availability zone
+##### 1. EC2 can have multiple EBS
+##### 2. EBS cannot have. multiple EC2
+##### 3. EC2 and EBS are in same availability zone
 
 - EBS Snapshot
 - DLM : Data Lifecucle Manager
 - Instance Store
+#### AWS Storage Gateway : Gives access to cloud storage with low latency and no protocol changes and unlimited storage.
+#### AWS Elastic Disaster Recovery :
+- OnPrem Recovery
+- Point in time recovery
